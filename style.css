@@ -3,11 +3,11 @@
 body{
     background-color: #151515;
     color: white;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 header{
     margin-top: 18px;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 16px;
     display: flex;
     justify-content: space-evenly;
@@ -19,18 +19,26 @@ header img{
 
 header .name{
     font-size: 18px;
+    cursor: pointer;
 }
 
 header .links{
     cursor: pointer;
     color: #9ba3b4;
+    display: flex;
+    gap: 20px;
+}
+
+header .searchbtn{
+    padding-left: 80px;
 }
 
 header .searchbtn input{
     font-size: 18px;
     background-color: #151515;
-    border: none;
+    border: 0.5px ridge #9ba3b4;
     color: #9ba3b4;
+    border-radius: 2px;
 }
 
 header .searchbtn button{
@@ -44,6 +52,10 @@ header .searchbtn button{
     border-radius: 5px;
 }
 
+header .searchbtn button:hover{
+    opacity: .9;
+}
+
 .info{
     margin-top: 20px;
     text-align: center;
@@ -55,4 +67,66 @@ header .searchbtn button{
 
 .info span{
     color: #9ba3b4;
+}
+
+.details{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    padding-left: 100px;
+}
+
+.right{
+    padding-right: 100px;
+}
+
+.btninfo {
+    border: none;
+    background-color: #9ba3b4;
+    color: #152954;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.download{
+    border: none;
+    background-color: #0078d4;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.download:hover{
+    opacity: .9;
+}
+
+h1{
+    font-size: 56px;
+    max-width: 55px;
+}
+
+.editions{
+    margin-top: 10px;
+}
+
+.editions a{
+    color: #0078d4;
+    font-size: 15px;
+}   
+
+.editions span{
+    color: #787474;
+}
+
+.agreement p{
+    font-size: 10px;
+    color: #787474;
+}
+
+.agreement a{
+    color: #0078d4;
 }
