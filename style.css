@@ -54,6 +54,7 @@ header .searchbtn button{
 
 header .searchbtn button:hover{
     opacity: .9;
+    cursor: pointer;
 }
 
 .info{
@@ -102,6 +103,7 @@ header .searchbtn button:hover{
 
 .download:hover{
     opacity: .9;
+    cursor: pointer;
 }
 
 h1{
