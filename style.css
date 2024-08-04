@@ -50,6 +50,7 @@ header .searchbtn button{
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 5px;
+    margin-left: 5px;
 }
 
 header .searchbtn button:hover{
